@@ -41,18 +41,10 @@
   </sub>
 </div>
 
-
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
-
-![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
-
-- [🐍 30 Days Of Python](#-30-days-of-python)
 - [📘 Day 1](#-day-1)
-  - [Welcome](#welcome)
-  - [Introduction](#introduction)
-  - [Why Python ?](#why-python-)
+  - [Virtualenv](#virtualenv)
   - [Environment Setup](#environment-setup)
-    - [Installing Python](#installing-python)
+    - [Virtualenv](#virtualenv)
     - [Python Shell](#python-shell)
     - [Installing Visual Studio Code](#installing-visual-studio-code)
       - [How to use visual studio code](#how-to-use-visual-studio-code)
@@ -79,7 +71,7 @@
 
 ## Environment Setup
 
-### Cài đặt virtualenv
+### Virtualenv
 
 ```
 brew install virtualenv
@@ -99,10 +91,12 @@ virtualenv -p python3.10 <tên môi trường>
 
 ### Python Shell
 
-Python is an interpreted scripting language, so it does not need to be compiled. It means it executes the code line by line. Python comes with a _Python Shell (Python Interactive Shell)_. It is used to execute a single python command and get the result.
+Python là một ngôn ngữ script thông dịch, nó không cần phải biên dịch.
+Có nghĩa là nó sẽ thực thi dòng code line by line.
+Python cung cấp Python Shell, nó dùng để thực thi từng câu lệnh đơn lẻ và trả về luôn kết quả.
 
-Python Shell waits for the Python code from the user. When you enter the code, it interprets the code and shows the result in the next line.
-Open your terminal or command prompt(cmd) and write:
+Python Shell đợi user gõ code. Sau khi user nhập lệnh code, nó sẽ thông dịch code và hiển thị kết quả vào dòng kế tiếp.
+Mở terminal lên, rồi gõ câu lệnh phía dưới:
 
 ```shell
 python
@@ -110,7 +104,8 @@ python
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened and it is waiting for you to write Python code(Python script). You will write your Python script next to this symbol >>> and then click Enter.
+The Python interactive shell is opened and it is waiting for you to write Python code(Python script).
+You will write your Python script next to this symbol >>> and then click Enter.
 Let us write our very first script on the Python scripting shell.
 
 ![Python script on Python shell](./images/adding_on_python_shell.png)
