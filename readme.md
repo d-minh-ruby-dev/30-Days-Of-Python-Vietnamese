@@ -37,7 +37,7 @@
   <h1> 30 Days Of Python: Day 1 - Introduction</h1>
   <sub>
     Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-    <small> Second Edition: July, 2021</small>
+    Dịch: Đặng Quang Minh <br>
   </sub>
 </div>
 
@@ -74,60 +74,66 @@
 ### Virtualenv
 
 ```
-brew install virtualenv
+$ brew install virtualenv
 ```
 
 Tạo một môi trường mới
 
 ```
-virtualenv <tên môi trường>
+$ virtualenv <tên môi trường>
 ```
 
 Tạo một môi trường mới với phiên bản python cố định nào đó
 
 ```
-virtualenv -p python3.10 <tên môi trường>
+$ virtualenv -p python3.10 <tên môi trường>
 ```
 
 ### Python Shell
 
-Python là một ngôn ngữ script thông dịch, nó không cần phải biên dịch.
-Có nghĩa là nó sẽ thực thi dòng code line by line.
+Python là một ngôn ngữ script thông dịch, nó không cần phải biên dịch.\
+Có nghĩa là nó sẽ thực thi dòng code line by line.\
 Python cung cấp Python Shell, nó dùng để thực thi từng câu lệnh đơn lẻ và trả về luôn kết quả.
 
-Python Shell đợi user gõ code. Sau khi user nhập lệnh code, nó sẽ thông dịch code và hiển thị kết quả vào dòng kế tiếp.
+Python Shell đợi user gõ code. Sau khi user nhập lệnh code, nó sẽ thông dịch code và hiển thị kết quả vào dòng kế tiếp.\
 Mở terminal lên, rồi gõ câu lệnh phía dưới:
 
 ```shell
-python
+$ python
 ```
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened and it is waiting for you to write Python code(Python script).
-You will write your Python script next to this symbol >>> and then click Enter.
-Let us write our very first script on the Python scripting shell.
+The Python interactive shell sẽ được mở ra, và nó đợi bạn viết code Python vào đấy.
+
+You will write your Python script next to this symbol >>> and then click Enter.\
+Bạn sẽ gõ code python vào sau 3 ký tự >>> rồi bấm Enter.\
+Hãy xem tôi gõ dòng code đầu tiên vào Python scripting shell.
 
 ![Python script on Python shell](./images/adding_on_python_shell.png)
 
-Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell ?
-To close the shell, next to this symbol >> write **exit()** command and press Enter.
+Bùm, bạn đã viết đoạn mã python đầu tiên vào Python interactive shell.\
+Rồi, để tắt cái sheel này đi, gõ lệnh **exit()** rồi bấm Enter.
 
 ![Exit from python shell](./images/exit_from_shell.png)
 
-Now, you know how to open the Python interactive shell and how to exit from it.
+Yeah, giờ bạn đã biết cách open một Python interactive shell và biết cách tắt nó đi.
 
-Python will give you results if you write scripts that Python understands, if not it returns errors. Let's make a deliberate mistake and see what Python will return.
+Python sẽ cho bạn kết quả nếu đoạn code bạn viết là đúng, nếu sai nó sẽ trả về errors.\
+Hãy cùng tôi cố ý tạo ra một lỗi và xem Python nó trả về cái gì.
 
 ![Invalid Syntax Error](./images/invalid_syntax_error.png)
 
-As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
-
-The process of identifying and removing errors from a program is called *debugging*. Let us debug it by putting * in place of **x**.
+Quá trình xác nhận và loại bỏ errors trong chương trình được gọi là *debugging*.\
+Chúng ta debug nó bằng cách thay đổi **x** thành *.
 
 ![Fixing Syntax Error](./images/fixing_syntax_error.png)
 
-Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. We will see more about different Python **_error types_** in later sections.
+Bug đã được fix, chương trình chạy và chúng ta nhận được kết quả như mong đợi.\
+Như một lập trình viên, bạn sẽ ngập trong errors ngày qua ngày.\
+Bạn sẽ phải fix nó. Để giỏi trong debugging, bạn cần hiểu những loại lỗi mà bạn gặp.\
+Một vài lỗi trong Python là: *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. \
+Chúng ta sẽ xem khác biệt giữa các loại lỗi trong Python trong sessions sau.
 
 Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
 
@@ -410,6 +416,6 @@ To run the python file check the image below. You can run the python file either
 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
 2. Find an [Euclidian distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 Chúc mừng nhé bro ! 🎉
 
 [Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
