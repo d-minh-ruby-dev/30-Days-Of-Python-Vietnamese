@@ -73,6 +73,8 @@
 
 ### Virtualenv
 
+Cài đặt virtualenv trên MacOS
+
 ```
 $ brew install virtualenv
 ```
@@ -87,6 +89,12 @@ Tạo một môi trường mới với phiên bản python cố định nào đ�
 
 ```
 $ virtualenv -p python3.10 <tên môi trường>
+```
+
+Install python theo phiên bản cố định nào đó
+
+```
+$ brew install python@<version-muốn-cài>
 ```
 
 ### Python Shell
