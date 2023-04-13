@@ -143,13 +143,14 @@ Bạn sẽ phải fix nó. Để giỏi trong debugging, bạn cần hiểu nh�
 Một vài lỗi trong Python là: *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. \
 Chúng ta sẽ xem khác biệt giữa các loại lỗi trong Python trong sessions sau.
 
-Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
+Chúng ta hãy luyện thêm cách sử dụng Python shell. Mở terminal lên và gõ **python**.
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponential).
+The Python interactive shell được mở lên.\
+Chúng ta hãy thực hiện một vài toán tử (cộng trừ nhân chia, lấy phần dư, số mũ (exponential))
 
-Let us do some maths first before we write any Python code:
+Chúng ta thực hiện vài pheps toán đơn giản trước khi viết bất kỳ python code nào:
 
 - 2 + 3 = 5
 - 3 - 2 = 1
@@ -157,12 +158,14 @@ Let us do some maths first before we write any Python code:
 - 3 / 2 = 1.5
 - 3 ^ 2 = 3 x 3 = 9
 
-In python we have the following additional operations:
+Trong python, chúng ta có một vài toán tử bổ sung:
 
-- 3 % 2 = 1 => which means finding the remainder
-- 3 // 2 = 1 => which means removing the remainder
+- 3 % 2 = 1 => có nghĩa là tìm phần còn lại
+- 3 // 2 = 1 => có nghĩa là loại bỏ phần còn lại
 
 Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.
+
+Chúng ta thay đổi cú pháp toán bên trong Python code. Python shell đã mở ra trước đó, và chúng ta viết comment tại điểm bắt đầu của shell.
 
 A _comment_ is a part of the code which is not executed by python. So we can leave some text in our code to make our code more readable. Python does not run the comment part. A comment in python starts with hash(#) symbol.
 This is how you write a comment in python
