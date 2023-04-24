@@ -163,12 +163,9 @@ Trong python, chúng ta có một vài toán tử bổ sung:
 - 3 % 2 = 1 => có nghĩa là tìm phần còn lại
 - 3 // 2 = 1 => có nghĩa là loại bỏ phần còn lại
 
-Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.
-
 Chúng ta thay đổi cú pháp toán bên trong Python code. Python shell đã mở ra trước đó, và chúng ta viết comment tại điểm bắt đầu của shell.
 
-A _comment_ is a part of the code which is not executed by python. So we can leave some text in our code to make our code more readable. Python does not run the comment part. A comment in python starts with hash(#) symbol.
-This is how you write a comment in python
+Cách viết comment trong Python:
 
 ```shell
  # comment starts with hash
@@ -177,40 +174,40 @@ This is how you write a comment in python
 
 ![Maths on python shell](./images/maths_on_python_shell.png)
 
-Before we move on to the next section, let us practice more on the Python interactive shell. Close the opened shell by writing _exit()_ on the shell and open it again and let us practice how to write text on the Python shell.
+Trước khi chúng ta chuyển sang section tiếp theo, hãy luyện tập thêm trên Python interactive shell.
+Close shell bằng lệnh _exit()_, và mở nó lại rồi luyện cách viết text trên Python shell.
 
 ![Writing String on python shell](./images/writing_string_on_shell.png)
 
 ### Installing Visual Studio Code
 
-The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge we will use visual studio code. Visual studio code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+Sử dụng Python Shell là cách tốt để thử và test một đoạn script nhỏ nhưng nó không dùng cho một dự án lớn.
+Trong môi trường làm việc thực tế, lập trình viên sử dùng các Editor khác để code. Trong dự án 30 ngày học Python, chúng ta sử dụng VSCode. VSCode rất phổ biến.
 
 [![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
 
-If you installed visual studio code, let us see how to use it.
-If you prefer a video, you can follow this Visual Studio Code for Python [Video tutorial](https://www.youtube.com/watch?v=bn7Cx4z-vSo)
-
 #### How to use visual studio code
 
-Open the visual studio code by double clicking the visual studio icon. When you open it you will get this kind of interface. Try to interact with the labeled icons.
+Mở VSCode bằng cách click vào VSCode icon, nó sẽ giống hình phía dưới. Tương tác với các icon có nhãn text.
 
 ![Visual studio Code](./images/vscode_ui.png)
 
-Create a folder named 30DaysOfPython on your desktop. Then open it using visual studio code.
+Tạo một folder với tên là `30DaysOfPython` trên màn hình desktop. Sau đó mở nó bằng VSCode.
 
 ![Opening Project on Visual studio](./images/how_to_open_project_on_vscode.png)
 
 ![Opening a project](./images/opening_project.png)
 
-After opening it you will see shortcuts for creating files and folders inside of 30DaysOfPython project's directory. As you can see below, I have created the very first file, helloworld.py. You can do the same.
+Sau khi mở nó, bạn sẽ thấy shortcut để tạo file và folder trong thư mục `30DaysOfPython`. Như bạn có thể thấy phía diowis, tôi đã tạo ra file đầu tiên `helloword.py`.
+Bạn có thể làm giống vậy.
 
 ![Creating a python file](./images/helloworld.png)
 
-After a long day of coding, you want to close your code editor, right? This is how you will close the opened project.
+Sau một ngày dài code, bạn muốn tắt editor lại, phỏng? Đây là cách bạn sẽ tắt project đã mở.
 
 ![Closing project](./images/closing_opened_project.png)
 
-Congratulations, you have finished setting up the development environment. Let us start coding.
+Chúc mừng nhé, bạn đã kết thúc thiết lập môi trường lập trình. Cùng code nào.
 
 ## Basic Python
 
