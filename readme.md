@@ -213,18 +213,21 @@ Chúc mừng nhé, bạn đã kết thúc thiết lập môi trường lập tr�
 
 ### Python Syntax
 
-A Python script can be written in Python interactive shell or in the code editor. A Python file has an extension .py.
+Một đoạn mã python có thể code trong Python Shell hoặc trong code editor. Một file python có đuôi file là `.py`.
 
 ### Python Indentation
 
-An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+Môt indentation là khoảng trắng space. \
+Indentation trong rất nhiều ngôn ngữ dùng để tăng khả năng đọc code, tuy nhiên python sử dụng indentation để tạo ra các block code. \
+Trong các ngôn ngữ khác, sử dụng ngoặc nhọn để tạo các block code thay vì indentation. \
+Một lỗi phổ biến trong python là indentation sai.
 
 ![Indentation Error](./images/indentation.png)
 
 ### Comments
 
-Comments are very important to make the code more readable and to leave remarks in our code. Python does not run comment parts of our code.
-Any text starting with hash(#) in Python is a comment.
+Comment rất quan trọng để code dễ đọc, và tạo các ghi chú trong code của bạn. Python nó không chạy đoạn comment của bạn.
+Bất kỳ text nào bắt đầu bằng ký tự hash(#) trong Python là một comment.
 
 **Example: Single Line Comment**
 
@@ -236,7 +239,7 @@ Any text starting with hash(#) in Python is a comment.
 
 **Example: Multiline Comment**
 
-Triple quote can be used for multiline comment if it is not assigned to a variable
+Sử dụng 3 dấu quote để comment nhiều dòng nếu nó không được assigned cho một biến.
 
 ```shell
 """This is multiline comment
@@ -247,7 +250,10 @@ python is eating the world
 
 ### Data types
 
-In Python there are several types of data types. Let us get started with the most common ones. Different data types will be covered in detail in other sections. For the time being, let us just go through the different data types and get familiar with them. You do not have to have a clear understanding now.
+In Python there are several types of data types. Let us get started with the most common ones.
+Different data types will be covered in detail in other sections.
+For the time being, let us just go through the different data types and get familiar with them.
+You do not have to have a clear understanding now.
 
 #### Number
 
@@ -263,7 +269,7 @@ In Python there are several types of data types. Let us get started with the mos
 
 #### String
 
-A collection of one or more characters under a single or double quote. If a string is more than one sentence then we use a triple quote.
+Một tập hợp của một hoặc nhiều ký tự bên trong một cặp nháy đơn hoặc nháy kép. Nếu string nhiều dòng thì chúng ta sử dụng 3 dấu nháy.
 
 **Example:**
 
@@ -277,18 +283,18 @@ A collection of one or more characters under a single or double quote. If a stri
 
 #### Booleans
 
-A boolean data type is either a True or False value. T and F should be always uppercase.
+Với kiểu dữ liệu boolean, chỉ có thể là `True` hoặc `False`.
 
 **Example:**
 
 ```python
-    True  #  Is the light on? If it is on, then the value is True
-    False # Is the light on? If it is off, then the value is False
+  True  # Is the light on? If it is on, then the value is True
+  False # Is the light on? If it is off, then the value is False
 ```
 
 #### List
 
-Python list is an ordered collection which allows to store different data type items. A list is similar to an array in JavaScript.
+Python list là một tập hợp có thứ tự, nó chấp nhận lưu trữ các item có kiểu dữ liệu khác nhau. Một list nó giống một array trong Javascript.
 
 **Example:**
 
