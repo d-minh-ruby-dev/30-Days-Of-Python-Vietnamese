@@ -307,7 +307,7 @@ Python list là một tập hợp có thứ tự, nó chấp nhận lưu trữ c
 
 #### Dictionary
 
-A Python dictionary object is an unordered collection of data in a key value pair format. 
+Một object dictionary là một tập hợp của dữ liệu không có thứ tự, và có key value.
 
 **Example:**
 
@@ -324,7 +324,7 @@ A Python dictionary object is an unordered collection of data in a key value pai
 
 #### Tuple
 
-A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
+Một tuple là một tập hợp của các kiểu dữ liệu khác nhau giống như là list nhưng mà nó không thể thay đổi sau khi nó được tạo ra. Nó là immutable.
 
 **Example:**
 
@@ -338,9 +338,11 @@ A tuple is an ordered collection of different data types like list but tuples ca
 
 #### Set
 
-A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+Một set là một tập hợp của các kiểu dữ liệu giống như là list hay tuple.
+Không giống như list hay tuple, set không có thứ tự các items.
+Giống như trong Mathematics, set trong Python chỉ chứa dữ liệu uniq (duy nhất).
 
-In later sections, we will go in detail about each and every Python data type.
+Trong các sections sau, chúng ta sẽ đi vào chi tiết các kiểu dũ liệu của Python.
 
 **Example:**
 
@@ -351,19 +353,23 @@ In later sections, we will go in detail about each and every Python data type.
 
 ### Checking Data types
 
-To check the data type of certain data/variable we use the **type** function. In the following terminal you will see different python data types:
+Để kiểm tra kiểu dữ liệu của biến, chúng ta sử dụng hàm **type**. Trong ảnh terminal ở dưới đây, bạn sẽ thấy các kiểu khách nhau trong python:
 
 ![Checking Data types](./images/checking_data_types.png)
 
 ### Python File
 
-First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
+Đầu tiên, mở thư mục 30DaysOfPython. Nếu bạn chưa có thư mục này thì hãy tạo một thư mục với tên là 30DaysOfPython.
+Trong thư mục này, tạo một file tên là helloworld.py.
+Bây giờ, hãy code những gì mà ta đã code trong Python Shell sử dụng VSCode.
 
-The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function *print(). The *print()* built-in function takes one or more arguments as follows *print('arument1', 'argument2', 'argument3')*. See the examples below.
+Trong Python Shell, chúng ta không cần dùng function **print**, nhưng trong VSCode để nhìn được kết quả, chúng ta cần sử dụng hàm có sẵn **print()**.
+*print()* có thể có nhiều tham số, như sau: *print('arument1', 'argument2', 'argument3')*.
+Xem ví dụ dưới đây.
 
 **Example:**
 
-The file name is helloworld.py
+File name là helloword.py.
 
 ```py
 # Day 1 - 30DaysOfPython Challenge
@@ -387,11 +393,11 @@ print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
 ```
 
-To run the python file check the image below. You can run the python file either by running the green button on Visual Studio Code or by typing *python helloworld.py* in the terminal .
+Để chạy được python file, hãy xem ảnh phía dưới. Bạn có thể chạy python bằng cách bấm nút running màu xanh trong VSCode hoặc là gõ lệnh *python helloworld.py* trong terminal.
 
 ![Running python script](./images/running_python_script.png)
 
-🌕  You are amazing. You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscles.
+🌕 Tuyệt vời, bạn đã kết thúc ngày đầu tiên, bạn đang trên con đường thành công. Sau đây bạn sẽ làm một số bài tập cho não và cơ tay nhé.
 
 ## 💻 Exercises - Day 1
 
