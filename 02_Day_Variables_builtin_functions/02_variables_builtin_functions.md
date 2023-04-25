@@ -1,17 +1,6 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
+  <h1> Biến, các hàm có sẵn</h1>
 </div>
 
 [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
@@ -33,28 +22,58 @@
 
 ## Built in functions
 
-In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring. Some of the most commonly used Python built-in functions are the following: _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, and _dir()_. In the following table you will see an exhaustive list of Python built-in functions taken from [python documentation](https://docs.python.org/3.9/library/functions.html).
+Trong python, chúng ta có rất nhiều các hàm có sẵn (built-in). Built-in là bạn không cần phải import hay config gì mà vẫn gọi được bình thường.
+Một vài hàm built-in mà chúng ta hay sử dụng:
+* _print()_
+* _len()_
+* _type()_
+* _int()_
+* _float()_
+* _str()_
+* _input()_
+* _list()_
+* _dict()_
+* _min()_
+* _max()_
+* _sum()_
+* _sorted()_
+* _open()_
+* _file()_
+* _help()_
+* _dir()_
+
+Trong bảng dưới đây bạn sẽ thấy danh sách các hàm built-in trong [python documentation](https://docs.python.org/3.9/library/functions.html).
 
 ![Built-in Functions](../images/builtin-functions.png)
 
-Let us open the Python shell and start using some of the most common built-in functions.
+Bật Python shell lên và bắt đầu dùng một số built-in function thông dụng nhất.
 
 ![Built-in functions](../images/builtin-functions_practice.png)
 
-Let us practice more by using different built-in functions
+Luyện tập thêm vài built-in function khác.
 
 ![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)
 
-As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
+Như bạn có thể thấy, Python có một list các từ khoá.
+Chúng ta không thể dùng các từ khoá (reserved words) để khai báo biến hoặc functions.
+Chúng ta sẽ tìm hiểu về variables ở chương sau.
 
-I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
+Tôi tin rằng, bây giờ bạn đã hiểu về built-in functions.
+Hãy cùng làm thêm một bài luyện tập về built-in function và chúng ta sẽ đi đến chương sau.
 
 ![Min Max Sum](../images/builtin-functional-final.png)
 
 ## Variables
 
-Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
-Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+Biến lưu dữ liệu trong bộ nhớ RAM.
+Biến ghi nhớ (Mnemonic variables) được khuyến khích sử dụng ở nhất nhiều các ngôn ngữ lập trình.
+
+Biến ghi nhớ là một tên biến có thể dễ dàng ghi nhớ và liên kết.
+Một biến đề cập đến một địa chỉ bộ nhớ trong đó dữ liệu được lưu trữ.
+
+Number at the beginning, special character, hyphen are not allowed when naming a variable.
+
+A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
 
 Python Variable Name Rules
 
