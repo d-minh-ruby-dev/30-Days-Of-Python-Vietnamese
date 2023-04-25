@@ -1,17 +1,6 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
+  <h1> Biến, các hàm có sẵn</h1>
 </div>
 
 [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
@@ -33,7 +22,27 @@
 
 ## Built in functions
 
-In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring. Some of the most commonly used Python built-in functions are the following: _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, and _dir()_. In the following table you will see an exhaustive list of Python built-in functions taken from [python documentation](https://docs.python.org/3.9/library/functions.html).
+Trong python, chúng ta có rất nhiều các hàm có sẵn (built-in). Built-in là bạn không cần phải import hay config gì mà vẫn gọi được bình thường.
+Một vài hàm built-in mà chúng ta hay sử dụng:
+* _print()_
+* _len()_
+* _type()_
+* _int()_
+* _float()_
+* _str()_
+* _input()_
+* _list()_
+* _dict()_
+* _min()_
+* _max()_
+* _sum()_
+* _sorted()_
+* _open()_
+* _file()_
+* _help()_
+* _dir()_
+
+Trong bảng dưới đây bạn sẽ thấy danh sách các hàm built-in trong [python documentation](https://docs.python.org/3.9/library/functions.html).
 
 ![Built-in Functions](../images/builtin-functions.png)
 
