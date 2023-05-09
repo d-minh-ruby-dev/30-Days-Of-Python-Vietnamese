@@ -112,9 +112,16 @@ num-1
 1num
 ```
 
-We will use standard Python variable naming style which has been adopted by many Python developers. Python developers use snake case(snake_case) variable naming convention. We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed).  The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
+We will use standard Python variable naming style which has been adopted by many Python developers.
+Python developers use snake case(snake_case) variable naming convention.
+We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed).
+The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
 
-When we assign a certain data type to a variable, it is called variable declaration. For instance in the example below my first name is assigned to a variable first_name. The equal sign is an assignment operator. Assigning means storing data in the variable. The equal sign in Python is not equality as in Mathematics.
+When we assign a certain data type to a variable, it is called variable declaration.
+For instance in the example below my first name is assigned to a variable first_name.
+The equal sign is an assignment operator.
+Assigning means storing data in the variable.
+The equal sign in Python is not equality as in Mathematics.
 
 _Example:_
 
@@ -135,7 +142,9 @@ person_info = {
    }
 ```
 
-Let us use the _print()_ and _len()_ built-in functions. Print function takes unlimited number of arguments. An argument is a value which we can be passed or put inside the function parenthesis, see the example below.
+Let us use the _print()_ and _len()_ built-in functions.
+Print function takes unlimited number of arguments.
+An argument is a value which we can be passed or put inside the function parenthesis, see the example below.
 
 **Example:**
 
@@ -181,7 +190,8 @@ print('Age: ', age)
 print('Married: ', is_married)
 ```
 
-Getting user input using the _input()_ built-in function. Let us assign the data we get from a user into first_name and age variables.
+Getting user input using the _input()_ built-in function.
+Let us assign the data we get from a user into first_name and age variables.
 **Example:**
 
 ```py
@@ -194,7 +204,12 @@ print(age)
 
 ## Data Types
 
-There are several data types in Python. To identify the data type we use the _type_ built-in function. I would like to ask you to focus on understanding different data types very well. When it comes to programming, it is all about data types. I introduced data types at the very beginning and it comes again, because every topic is related to data types. We will cover data types in more detail in their respective sections.
+There are several data types in Python.
+To identify the data type we use the _type_ built-in function.
+I would like to ask you to focus on understanding different data types very well.
+When it comes to programming, it is all about data types.
+I introduced data types at the very beginning and it comes again, because every topic is related to data types.
+We will cover data types in more detail in their respective sections.
 
 ## Checking Data types and Casting
 
@@ -225,7 +240,9 @@ print(type(zip([1,2],[3,4])))                                   # set
 ```
 
 - Casting: Converting one data type to another data type. We use _int()_, _float()_, _str()_, _list_, _set_
-  When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
+  When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error.
+  If we concatenate a number with a string, the number should be first converted to a string.
+  We will talk about concatenation in String section.
 
   **Example:**
 
@@ -274,7 +291,9 @@ Number data types in Python:
    Example:
    1 + j, 2 + 4j, 1 - 1j
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are awesome.
+You have just completed day 2 challenges and you are two steps ahead on your way to greatness.
+Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises - Day 2
 
